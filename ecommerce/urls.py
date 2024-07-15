@@ -5,10 +5,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('authentication/', include('authentication.urls')),
-    path('order_management/', include('order_management.urls')),
-    path('payment_processing/', include('payment_processing.urls')),
-    path('api-auth/', include('rest_framework.urls')),
+    # path('authentication/', include('authentication.urls')),
+    # path('order_management/', include('order_management.urls')),
+    # path('payment_processing/', include('payment_processing.urls')),
+    # path('api-auth/', include('rest_framework.urls')),
 ]
 
 if settings.DEBUG:
